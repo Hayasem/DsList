@@ -1,5 +1,4 @@
 package com.hayadevsuperior.dslist.dto;
-
 import com.hayadevsuperior.dslist.entities.Game;
 
 public class GameMinDTO {
@@ -11,7 +10,6 @@ public class GameMinDTO {
     private String shortDescription;
 
     public GameMinDTO(){
-
     }
     public GameMinDTO(Game entity) {
         id = entity.getId();

@@ -1,12 +1,10 @@
 package com.hayadevsuperior.dslist.entities;
 import jakarta.persistence.*;
-
 import java.util.Objects;
 
 @Entity
 @Table(name = "tb_game")
 public class Game {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -23,7 +21,6 @@ public class Game {
     private String longDescription;
 
     public Game(){
-
     }
     public Game(Long id, String title, Integer year,
                 String genre, String platforms, Double score, String imgUrl,
